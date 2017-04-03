@@ -4,8 +4,7 @@ Practicing classes/inheritance
 using namespace std;
 
 class student{
-  string lastName;
-  string firstName;
+  string lastName, firstName;
   int classYear;
   string major; 
   void getStudent (string lastName,string firstName,int classYear,string major){
@@ -16,8 +15,13 @@ class student{
   }
 }
 int main() {
-  student student1;
-  student student2;
-  student1.getStudent("Jenkins","Bob",3,"Arts");
-  student2.getStudent("Wang","Olga",4,"Math");
+  student student[];
+  student[0].getStudent("Jenkins","Bob",3,"Arts");
+  student[1].getStudent("Wang","Olga",4,"Math");
+  for (i=0; i<2; i++){
+    cout<<"Student Number 0000000"<<i<<": "<<student[i].lastName<<", "<<student[i].firstName<<endl<<
+    "Class year: "<<student[i].classYear<<student[i].<<endl<<
+    "Major: "<<student[i].major<<endl;
+  }
+  return 0;
 }
