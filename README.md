@@ -1,4 +1,4 @@
-# Placeholder
+# Class-Practice-1
 Practicing classes/inheritance 
 #include <iostream>
 using namespace std;
